@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "cl.exe build active file",
+      "command": "cl.exe",
+      "args": [
+        "/Zi",
+        "/EHsc",
+        "/Fe:",
+        "-m64",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "${file}"
+      ],
+      "problemMatcher": ["$msCompile"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "shell",
+      "label": "C/C++: cl.exe build active file",
+      "command": "cl.exe",
+      "args": [
+        "/Zi",
+        "/EHsc",
+        "/Fe:",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "${file}"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$msCompile"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
