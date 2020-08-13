@@ -30,7 +30,7 @@ int countFreq(string& pat, string& txt)
 
 void calcHealth(vector<string> genes, vector<int> health, int first, int last, string d)
 {
-	int totalHealth;
+	int totalHealth = 0;
 
 	for (int i = first; i < last + 1; i++)
 	{

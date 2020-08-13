@@ -1,49 +1,63 @@
 #include <iostream>
 #include <vector>
 
-int hourglassSum(std::vector<std::vector<int>> arr)
+using namespace std;
+
+int hourglassSum(vector<vector<int>> arr)
 {
+	int rLength = arr[0].size();
+	int cLength = arr.size();
 
-	std::vector<int> newArr;
-	int size = arr.size();
-	std::vector<long int> sums;
+	vector<int> sum = {};
 
-	for (long int i = 0; i < size; i++)
+	for (int i = 0; i < arr.size() - 2; i++)
 	{
-		newArr.reserve(newArr.size() + distance(arr[i].begin(), arr[i].end()));
-		newArr.insert(newArr.end(), arr[i].begin(), arr[i].end());
+		vector<int> currentRow = arr[i];
+		vector<int> nextToNextRow = arr[i + 2];
+
+		for (int j = 0; j < cLength - 2; j++)
+		{
+			sum.push_back(
+				currentRow[j] + currentRow[j + 1] + currentRow[j + 2]
+				+ arr[i + 1][j + 1] +
+				nextToNextRow[j] + nextToNextRow[j + 1] + nextToNextRow[j + 2]
+			);
+		}
 	}
 
-	for (int i = 0; i < size; i++)
+	int max = -278998;
+
+	for (int i = 0; i < sum.size(); i++)
 	{
-		if (i + 2 % size == 0)
-			continue;
-
-		if (i + 14 <= size * size)
-			break;
-
-		long int sum = newArr[i] + newArr[i + 1] + newArr[i + 2] + newArr[i + 7] + newArr[i + 12] + newArr[i + 13] + newArr[i + 14];
-		sums.push_back(sum);
+		if (max < sum[i]) max = sum[i];
 	}
 
-	for (long unsigned int i = 0; i < sums.size(); i++)
-	{
-		std::cout << sums[i] << std::endl;
-	}
+	cout << max << endl;
 
-	return 0;
+	return max;
 }
 
-/*
 int main()
 {
-	hourglassSum([
-		[ 1, 1, 1, 0, 0, 0 ],
-		[ 0, 1, 0, 0, 0, 0 ],
-		[ 1, 1, 1, 0, 0, 0 ],
-		[ 0, 0, 2, 4, 4, 0 ],
-		[ 0, 0, 0, 2, 0, 0 ],
-		[ 0, 0, 1, 2, 4, 0 ],
-	]);
+	/*
+	hourglassSum({
+		{ 1, 1, 1, 0, 0, 0 },
+		{ 0, 1, 0, 0, 0, 0 },
+		{ 1, 1, 1, 0, 0, 0 },
+		{ 0, 0, 2, 4, 4, 0 },
+		{ 0, 0, 0, 2, 0, 0 },
+		{ 0, 0, 1, 2, 4, 0 },
+	});
+	*/
+	vector<int> a = { -6, -20, -25, -24,
+					  -22, -31, 
+					};
+	hourglassSum({
+		{ -1, -1, 0, -9, -2, -2 },
+		{ -2, -1, -6, -8, -2, -5 },
+		{ -1, -1, -1, -2, -3, -4 },
+		{ -1, -9, -2, -4, -4, -5 },
+		{ -7, -3, -3, -2, -9, -9 },
+		{ -1, -3, -1, -2, -4, -5 }
+	});
 }
-*/
