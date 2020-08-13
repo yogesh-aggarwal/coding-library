@@ -98,7 +98,7 @@ public:
     }
 };
 
-int main()
+void startSinglyLinkedList()
 {
     SinglyLinkedList list;
 
@@ -112,3 +112,10 @@ int main()
 
     std::cout << list.head->next->next->data << std::endl;
 }
+
+/*
+int main()
+{
+    startSinglyLinkedList();
+}
+*/

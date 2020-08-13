@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Array\Array.cpp" />
     <ClCompile Include="Linked Lists\DoublyLinkedList.cpp" />
     <ClCompile Include="Linked Lists\SinglyLinkedList.cpp" />
   </ItemGroup>

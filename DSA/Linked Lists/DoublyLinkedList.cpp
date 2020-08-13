@@ -103,7 +103,7 @@ void generateDoublyLinkedListFromMatrix()
     };
 }
 
-int main()
+void startDoublyLinkedList()
 {
     DoublyLinkedList list;
 
@@ -117,3 +117,10 @@ int main()
 
     std::cout << std::endl;
 }
+
+/*
+int main()
+{
+    startDoublyLinkedList();
+}
+*/
