@@ -1,4 +1,2 @@
-﻿  HourGlassSum.cpp
-D:\C++\Coding Library\Competitive Programming\HourGlassSum\HourGlassSum.cpp(8,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-D:\C++\Coding Library\Competitive Programming\HourGlassSum\HourGlassSum.cpp(9,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+﻿  ArrayManipulation.cpp
   Competitive Programming.vcxproj -> D:\C++\Coding Library\x64\Debug\Competitive Programming.exe

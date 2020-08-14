@@ -19,8 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayManipulation\ArrayManipulation.cpp" />
     <ClCompile Include="CountSubStrings\CountSubStrings.cpp" />
     <ClCompile Include="DNAHealthByGene\DNAHealthByGene.cpp" />
+    <ClCompile Include="DynamicArrays\DynamicArrays.cpp" />
     <ClCompile Include="HourGlassSum\HourGlassSum.cpp" />
     <ClCompile Include="ParanthesisString\ParanthesisString.cpp" />
   </ItemGroup>
