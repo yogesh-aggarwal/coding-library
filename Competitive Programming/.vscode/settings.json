@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.svg": "html",
+        "*.j2": "html",
+        "*.xml": "html",
+        "unordered_map": "cpp"
+    }
+}
