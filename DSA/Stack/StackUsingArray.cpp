@@ -28,7 +28,7 @@ public:
     {
         if (isEmpty())
         {
-            std::cout << "Stack is empty";
+            std::cout << "Stack is Empty";
             return;
         }
         stack[top] = 0;
