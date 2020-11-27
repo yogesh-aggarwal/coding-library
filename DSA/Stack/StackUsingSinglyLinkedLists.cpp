@@ -67,25 +67,24 @@ public:
         return top == nullptr ? true : false;
     }
 
-    // void display()
-    // {
-    //     if (isEmpty())
-    //     {
-    //         std::cout << "Stack is Empty" << std::endl;
-    //         return;
-    //     }
+    void display()
+    {
+        if (isEmpty())
+        {
+            std::cout << "Stack is Empty" << std::endl;
+            return;
+        }
 
-    //     int count = 0;
-    //     Node *currentNode = bottom;
+        int count = 0;
+        Node *currentNode = top;
 
-    //     while (count < size - 2)
-    //     {
-    //         //  << currentNode->value
-    //         std::cout << "Index " << count << ": " << std::endl;
-    //         currentNode = currentNode->next;
-    //         count++;
-    //     }
-    // }
+        while (count < size - 1)
+        {
+            std::cout << "Index " << count << ": " << currentNode->value << std::endl;
+            currentNode = currentNode->next;
+            count++;
+        }
+    }
 };
 
 int main()
@@ -93,13 +92,13 @@ int main()
     Stack *stack = new Stack(3);
     stack->push(1);
     stack->peek();
-    // stack->display();
+    stack->display();
 
     stack->pop();
 
     stack->push(2);
     stack->push(3);
-    // stack->display();
+    stack->display();
 
     return 0;
 }

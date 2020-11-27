@@ -57,7 +57,7 @@ public:
         int count = 0;
         while (count <= top)
         {
-            std::cout << "Index " << count << ": " << stack[count] << std::endl;
+            std::cout << "Index " << count << ": " << stack[top - count] << std::endl;
             count++;
         }
     }
@@ -68,7 +68,7 @@ int main()
     Stack *stack = new Stack(3);
     stack->push(1);
     stack->peek();
-    stack->display();
+    // stack->display();
 
     stack->pop();
 
