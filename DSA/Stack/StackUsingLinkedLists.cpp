@@ -58,7 +58,6 @@ public:
             std::cout << "Stack is Empty" << std::endl;
             return -1;
         }
-        std::cout << top->value << std::endl;
         return top->value;
     }
 

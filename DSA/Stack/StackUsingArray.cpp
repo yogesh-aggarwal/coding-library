@@ -43,7 +43,6 @@ public:
             return -1;
         }
         int value = stack[top];
-        std::cout << value << std::endl;
         return value;
     }
 
@@ -68,7 +67,7 @@ int main()
     Stack *stack = new Stack(3);
     stack->push(1);
     stack->peek();
-    // stack->display();
+    stack->display();
 
     stack->pop();
 
