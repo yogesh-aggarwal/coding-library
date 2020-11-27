@@ -78,8 +78,9 @@ public:
         int count = 0;
         Node *currentNode = top;
 
-        while (count < size - 1)
+        while (true)
         {
+            if(currentNode == nullptr) break;
             std::cout << "Index " << count << ": " << currentNode->value << std::endl;
             currentNode = currentNode->next;
             count++;
