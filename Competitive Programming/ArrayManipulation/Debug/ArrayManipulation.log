@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Development\C++\Coding Library\Competitive Programming\ArrayManipulation\main.cpp(13,20): warning C4018: '<': signed/unsigned mismatch
+D:\Development\C++\Coding Library\Competitive Programming\ArrayManipulation\main.cpp(26,25): warning C4018: '<': signed/unsigned mismatch
+  ArrayManipulation.vcxproj -> D:\Development\C++\Coding Library\Competitive Programming\Debug\ArrayManipulation.exe

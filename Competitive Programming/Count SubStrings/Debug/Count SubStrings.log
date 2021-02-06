@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\Development\C++\Coding Library\Competitive Programming\Count SubStrings\main.cpp(31,21): warning C4018: '<': signed/unsigned mismatch
+D:\Development\C++\Coding Library\Competitive Programming\Count SubStrings\main.cpp(53,25): warning C4018: '<': signed/unsigned mismatch
+D:\Development\C++\Coding Library\Competitive Programming\Count SubStrings\main.cpp(64,20): warning C4018: '<': signed/unsigned mismatch
+  Count SubStrings.vcxproj -> D:\Development\C++\Coding Library\Competitive Programming\Debug\Count SubStrings.exe

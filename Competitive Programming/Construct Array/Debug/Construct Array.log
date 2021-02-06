@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Construct Array.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+D:\Development\C++\Coding Library\Competitive Programming\Construct Array\main.cpp(10,35): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
+D:\Development\C++\Coding Library\Competitive Programming\Construct Array\main.cpp(17,12): warning C4244: 'return': conversion from 'unsigned __int64' to 'int', possible loss of data
+D:\Development\C++\Coding Library\Competitive Programming\Construct Array\main.cpp(25,28): warning C4101: 'M': unreferenced local variable
+D:\Development\C++\Coding Library\Competitive Programming\Construct Array\main.cpp(24,28): warning C4101: 'N': unreferenced local variable
+  Construct Array.vcxproj -> D:\Development\C++\Coding Library\Competitive Programming\Debug\Construct Array [Pending].exe

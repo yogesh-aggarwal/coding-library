@@ -1,0 +1,7 @@
+﻿  main.cpp
+D:\Development\C++\Coding Library\Competitive Programming\Bracket Matching\main.cpp(80,22): warning C4018: '<': signed/unsigned mismatch
+D:\Development\C++\Coding Library\Competitive Programming\Bracket Matching\main.cpp(100,22): warning C4018: '<': signed/unsigned mismatch
+D:\Development\C++\Coding Library\Competitive Programming\Bracket Matching\main.cpp(112,22): warning C4018: '<': signed/unsigned mismatch
+D:\Development\C++\Coding Library\Competitive Programming\Bracket Matching\main.cpp(129,22): warning C4018: '<': signed/unsigned mismatch
+D:\Development\C++\Coding Library\Competitive Programming\Bracket Matching\main.cpp(146,22): warning C4018: '<': signed/unsigned mismatch
+  Bracket Matching.vcxproj -> D:\Development\C++\Coding Library\Competitive Programming\Debug\Bracket Matching.exe

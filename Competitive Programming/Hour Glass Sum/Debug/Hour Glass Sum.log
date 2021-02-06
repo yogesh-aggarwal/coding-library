@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\Development\C++\Coding Library\Competitive Programming\Hour Glass Sum\main.cpp(13,20): warning C4018: '<': signed/unsigned mismatch
+D:\Development\C++\Coding Library\Competitive Programming\Hour Glass Sum\main.cpp(30,20): warning C4018: '<': signed/unsigned mismatch
+  Hour Glass Sum.vcxproj -> D:\Development\C++\Coding Library\Competitive Programming\Debug\Hour Glass Sum.exe
